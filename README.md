@@ -16,7 +16,7 @@ All while remaining **fully on-chain and verifiable**.
 
 # 🧠 AIJury – Multiplayer Knowledge Game on GenLayer
 
-AIJury is a **room-based, time-bound multiplayer knowledge game smart contract** built using **GenLayer Studio** and **py-genlayer**.
+AIJury is a **room-based, multiplayer knowledge game smart contract** built using **GenLayer Studio** and **py-genlayer**.
 It demonstrates how GenLayer can be used to build **logic-heavy, non-DeFi applications** fully on-chain.
 
 ---
@@ -24,11 +24,9 @@ It demonstrates how GenLayer can be used to build **logic-heavy, non-DeFi applic
 ## 🚀 Features
 
 * 👥 **Room-based gameplay** (3 players per room)
-* ⏱ **Time-restricted answering window**
 * 🎯 **Deterministic question assignment**
 * 🧮 **Keyword + length based scoring**
 * 📈 **XP accumulation system**
-* 🧊 **24-hour cooldown per wallet**
 * 🏆 **On-chain leaderboard**
 
 ---
@@ -38,7 +36,7 @@ It demonstrates how GenLayer can be used to build **logic-heavy, non-DeFi applic
 * GenLayer Studio
 * py-genlayer
 * TreeMap & DynArray
-* Timestamp-based execution
+
 
 ---
 
