@@ -1,5 +1,5 @@
-[![GitHub stars](https://img.shields.io/github/stars/0xDarkSeidBull/Genlayer-ai-jury-demo)](https://github.com/0xDarkSeidBull/Genlayer-ai-jury-demo/stargazers)
-[![License](https://img.shields.io/github/license/0xDarkSeidBull/Genlayer-ai-jury-demo)](https://github.com/0xDarkSeidBull/Genlayer-ai-jury-demo/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/0xDarkSeidBull/Genlayer-ai-jury-demo)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/0xDarkSeidBull/Genlayer-ai-jury-demo)](https://github.com/0xDarkSeidBull/Genlayer-ai-jury-demo/stargazers)
 
 ---
 
