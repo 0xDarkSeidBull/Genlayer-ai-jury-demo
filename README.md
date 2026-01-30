@@ -1,8 +1,3 @@
-[![License](https://img.shields.io/github/license/0xDarkSeidBull/Genlayer-ai-jury-demo)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/0xDarkSeidBull/Genlayer-ai-jury-demo)](https://github.com/0xDarkSeidBull/Genlayer-ai-jury-demo/stargazers)
-
----
-
 ## 🌐 What is GenLayer?
 <img width="1344" height="768" alt="socialsight-ai-fc6a5b43-a34f-4348-9d7c-a3ca627fde28" src="https://github.com/user-attachments/assets/ecbad8b2-7bd2-496a-85a0-bd956b27f441" />
 
@@ -378,4 +373,6 @@ After deploy, test the core functions:
 ## 📄 License
 This project is built for educational and experimental purposes on GenLayer.
 
+[![License](https://img.shields.io/github/license/0xDarkSeidBull/Genlayer-ai-jury-demo)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/0xDarkSeidBull/Genlayer-ai-jury-demo)](https://github.com/0xDarkSeidBull/Genlayer-ai-jury-demo/stargazers)
 
