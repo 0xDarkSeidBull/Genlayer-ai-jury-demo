@@ -3,11 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Jury dApp (MetaMask + Vercel)</title>
     <title>GenLayer Jury Demo - MetaMask Txn</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="container">
+      <h1>AI Jury dApp</h1>
+      <p class="subtitle">Join room, answer question, judge and track XP using MetaMask transactions.</p>
+
+      <section class="card">
+        <h2>0) Wallet</h2>
       <h1>GenLayer Jury Demo</h1>
       <p class="subtitle">Vercel-ready website with safe MetaMask transaction flow.</p>
 
@@ -18,6 +24,60 @@
       </section>
 
       <section class="card">
+        <h2>1) Contract Setup</h2>
+        <label>
+          Contract Address
+          <input id="contractAddress" type="text" placeholder="0x..." autocomplete="off" />
+        </label>
+
+        <label>
+          Target Chain
+          <select id="network">
+            <option value="0xaa36a7">Sepolia</option>
+            <option value="0x1">Ethereum Mainnet</option>
+            <option value="0x89">Polygon</option>
+          </select>
+        </label>
+
+        <label>
+          ABI (editable)
+          <textarea id="abi" rows="10"></textarea>
+        </label>
+
+        <button id="loadContractBtn" type="button">Load Contract</button>
+        <div class="status" id="contractStatus">Contract not loaded</div>
+      </section>
+
+      <section class="card">
+        <h2>2) Game Actions</h2>
+        <label>
+          Room ID
+          <input id="roomId" type="text" placeholder="room1" autocomplete="off" />
+        </label>
+
+        <label>
+          Player Wallet (optional, default connected wallet)
+          <input id="playerWallet" type="text" placeholder="0x..." autocomplete="off" />
+        </label>
+
+        <label>
+          Answer
+          <textarea id="answer" rows="4" placeholder="Type your answer..."></textarea>
+        </label>
+
+        <div class="actions">
+          <button id="joinBtn" type="button">Join Room (tx)</button>
+          <button id="questionBtn" type="button">Get Question (read)</button>
+          <button id="submitBtn" type="button">Submit Answer (tx)</button>
+          <button id="judgeBtn" type="button">Judge & Distribute (tx)</button>
+          <button id="xpBtn" type="button">Get My XP (read)</button>
+        </div>
+
+        <div class="status" id="txStatus">Waiting for actions</div>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
         <h2>2) Send Transaction</h2>
         <label>
           Recipient Address
