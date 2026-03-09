@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GenLayer Jury Demo - MetaMask Txn</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>GenLayer Jury Demo</h1>
+      <p class="subtitle">Vercel-ready website with safe MetaMask transaction flow.</p>
+
+      <section class="card">
+        <h2>1) Connect Wallet</h2>
+        <button id="connectBtn" type="button">Connect MetaMask</button>
+        <div class="status" id="walletStatus">Wallet not connected</div>
+      </section>
+
+      <section class="card">
+        <h2>2) Send Transaction</h2>
+        <label>
+          Recipient Address
+          <input id="to" type="text" placeholder="0x..." autocomplete="off" />
+        </label>
+
+        <label>
+          Amount (ETH)
+          <input id="amount" type="number" placeholder="0.001" min="0" step="0.000001" />
+        </label>
+
+        <label>
+          Optional data (hex)
+          <input id="data" type="text" placeholder="0x" autocomplete="off" />
+        </label>
+
+        <label>
+          Target Chain
+          <select id="network">
+            <option value="0xaa36a7">Sepolia (recommended for testing)</option>
+            <option value="0x1">Ethereum Mainnet</option>
+            <option value="0x89">Polygon Mainnet</option>
+          </select>
+        </label>
+
+        <button id="sendBtn" type="button">Send Transaction</button>
+        <div class="status" id="txStatus">Waiting for input</div>
+      </section>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
